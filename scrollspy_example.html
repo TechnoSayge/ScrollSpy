@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollSpy" data-offset="50"> <!--attribute, added to the element, ​
+    is meant to be used as the scrollable area. It is added to the <body> element on line 8
+    The data-target attribute is added with a value of the ID or the class name of the navigation bar (.navbar). 
+    This connects the navigation bar with the scrollable area (line 888 and line 111111).
+    The ID of the scrollable elements must match the ID of the links inside the navbar’s list of items.     
+    For example, <div id="section1"> corresponds to <a href="#section1">Section 1</a> in the <nav> component.
+    The optional data-offset attribute specifies the number of pixels used to offset from the top when calculating  
+    the position of the​ scroll. It is useful when the navbar changes its state too quickly during scrolling.    
+    -->
+    <div class="container">
+    <div class="row">
+        <nav class="col-sm-4" id="myScrollSpy">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="#section4">Section 4</a></li>        
+            </ul>
+        </nav>
+        <div class="col-sm-9">
+        <div id="section1">    
+            <h1>Section 1</h1>
+            <p>Scroll down and note how the section on the left updates.</p>
+        </div>
+        <div id="section2"> 
+            <h1>Section 2</h1>
+            <p>Keep scrolling.</p>
+        </div>        
+        <div id="section3">         
+            <h1>Section 3</h1>
+            <p>Stuff related to section 3. Scroll down again.</p>
+        </div>
+        <div id="section4">         
+            <h1>Section 4</h1>
+            <p>Final section stuff. The navbar on the left is also on section 4.</p>
+        </div>      
+        </div>
+    </div>
+    </div>
+</body>
+</html>

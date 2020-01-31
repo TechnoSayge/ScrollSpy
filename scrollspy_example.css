@@ -1,0 +1,21 @@
+body {
+    position: relative;
+  }
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+#section1 {color: #fff; background-color: #51004B;}
+#section2 {color: #fff; background-color: #00318C;}
+#section3 {color: #fff; background-color: #008C7F;}
+#section4 {color: #fff; background-color: #1C8C00;}
+  
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4 {
+      margin-left: 100px;
+  }
+}
